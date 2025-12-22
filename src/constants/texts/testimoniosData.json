@@ -1,0 +1,22 @@
+{
+  "testimonios": [
+    {
+      "imagen": "/EmmaBostian.png",
+      "titulo": "Emma Bostian",
+      "cargo": "Desarrolladora de Software",
+      "texto": "I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify."
+    },
+    {
+      "imagen": "/SarahChima.png",
+      "titulo": "John Doe",
+      "cargo": "Ingeniero de Software",
+      "texto": "freeCodeCamp helped me structure my knowledge in a way that finally made sense. After completing the curriculum, I felt confident applying for jobs and now I'm working at Google."
+    },
+    {
+      "imagen": "/SwanWang.png",
+      "titulo": "Swan Wang",
+      "cargo": "Ingeniero de Software",
+      "texto": "freeCodeCamp helped me structure my knowledge in a way that finally made sense. After completing the curriculum, I felt confident applying for jobs and now I'm working at Google."
+    }
+  ]
+}

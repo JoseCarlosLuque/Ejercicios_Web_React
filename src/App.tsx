@@ -6,6 +6,7 @@
 
 import './App.css'
 import { Home } from './pages/Home';
+import { PagTestimonios } from './pages/PagTestimonios'
 import { PagContador } from './pages/PagContador';
 import { PagCalculadora } from './pages/PagCalculadora';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -18,11 +19,13 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
       <BrowserRouter>
       <nav className='navbar-principal'>
         <Link to='/' className='nav-link'> Inicio </Link>
+        <Link to='/Testimonios' className='nav-link'> Testimonios </Link>
         <Link to='/Contador' className='nav-link'> Contador </Link>
         <Link to='/Calculadora' className='nav-link'> Calculadora</Link>
       </nav>
       <Routes>
         <Route path='/' element={ <Home /> }/>
+        <Route path='/Testimonios' element={<PagTestimonios/>}/>
         <Route path='/Contador' element={<PagContador/>}/>
         <Route path='/Calculadora' element={<PagCalculadora/>}/>
       </Routes>
