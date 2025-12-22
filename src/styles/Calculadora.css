@@ -1,0 +1,35 @@
+.fila-pantalla-calculadora {
+    width: 100%;
+    margin-left: 10px;  
+    margin-right: 10px;
+     height: 83px;
+     background-color: white;
+     border-radius: 30px;
+}
+
+.contenedor-principal-calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #99c9ff;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+/*
+    Con el objetivo de hacer que los botones se distribullan en el eje y en cada una de las sucesivas filas
+    evitaremos, en el contenedor flex donde se alojan, no darle la propiedad "wrap".
+*/
+
+
+.fila {
+    margin: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

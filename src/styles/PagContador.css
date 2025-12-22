@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(126, 125, 125);
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+  flex-direction: column;
+}
+
+.freecodecamp-logo-contenedor {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 100px;
+}
+
+.freecodecamp-logo {
+  height: 50px;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedor-numero-contador {
+  font-size: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}

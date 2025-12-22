@@ -1,0 +1,33 @@
+
+.boton-click {
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.boton-click:hover {
+    background-color: rgb(237, 164, 176);
+}
+
+.boton-reiniciar {
+    width: 250px;
+    height: 80px;
+    font-size: 35px;
+    margin: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(0, 255, 72);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-reiniciar:hover {
+    background-color: red;
+}
