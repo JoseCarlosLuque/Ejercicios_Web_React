@@ -2,9 +2,10 @@ import '../../styles/calculadoraStyles/BotonCalculadora.css'
 
 interface Props {
     simbolo: string;
+    funcion: () => {}
 }
 
-export function BotonCalculadora ({simbolo} : Props ) {
+export function BotonCalculadora ({simbolo, funcion} : Props ) {
 
     const esOperador = (simbolo:string) => {
          // Para la función isNaN hay que forzar el tipo por el tipado estricto de Typescript.
@@ -16,7 +17,8 @@ export function BotonCalculadora ({simbolo} : Props ) {
         salga el espacio, en cuanto al final "operador" se quedará como una clase distinta a la que habrá que aplicar
         de nuevo los estilos extra.
         */
-        <button className={`boton-calculadora ${esOperador(simbolo) ? 'operador' : '' }`.trimEnd()}>
+        <button className={`boton-calculadora ${esOperador(simbolo) ? 'operador' : '' }`.trimEnd()}
+            onClick={funcion}>
             {simbolo}
         </button>
     )
