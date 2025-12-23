@@ -19,9 +19,18 @@ export function Calculadora () {
     const funcionAddInput = (simbolo: string) => {
         setInput (inputPantalla + simbolo)
     }
-    // Funcion Calcular:
+    // Funcion Calcular hacemos uso de una funcion de JS. :
     const funcionEvaluarInput = () => {
-        setInput (eval(inputPantalla))
+        if (inputPantalla){
+             setInput (eval(inputPantalla))
+        }else{
+            alert("Ingrese valores válidos")
+        }
+        /*
+            En JavaScript existen valores falsy y truthy, en el caso de evaluar si una cadena de caracteres es true
+            o false se tomará como criterio si está "vacia" o si tiene contenido siendo false cuando esta vacía. 
+            Esto nos permite hacer un manejo de posibles errores a la hora de usar la calculadora
+        */
     }
 
     return(
