@@ -1,7 +1,7 @@
 import freecodecampLogo from "../imagenes/FreecodecampLogo.png";
-import { BotonContador } from "../components/BotonContador";
-import { Contador } from "../components/Contador";
-import "../styles/PagContador.css";
+import { BotonContador } from "../components/contador/BotonContador";
+import { Contador } from "../components/contador/Contador";
+import "../styles/contadorStyles/PagContador.css";
 import { useState } from "react";
 
 /**

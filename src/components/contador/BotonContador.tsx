@@ -1,5 +1,5 @@
 // Importamos la hoja de estilos de su carpeta correspondiente
-import "../styles/BotonContador.css";
+import "../../styles/contadorStyles/BotonContador.css";
 
 interface Props {
   texto: string;

@@ -1,4 +1,4 @@
-import '../styles/BotonCalculadora.css'
+import '../../styles/calculadoraStyles/BotonCalculadora.css'
 
 interface Props {
     simbolo: string;

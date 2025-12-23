@@ -1,5 +1,6 @@
-import '../styles/Calculadora.css'
+import '../../styles/calculadoraStyles/Calculadora.css'
 import { BotonCalculadora } from './BotonCalculadora'
+import { PantallaCalculadora } from './PantallaCalculadora'
 
 export function Calculadora () {
 
@@ -33,7 +34,7 @@ export function Calculadora () {
                     <BotonCalculadora simbolo='/'/>
                 </div>
                 <div className='fila'>
-                     <BotonCalculadora simbolo='Clear'/>
+                     <PantallaCalculadora input={"CLEAR"}/>
                 </div>
         </div>
     )

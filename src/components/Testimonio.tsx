@@ -1,4 +1,4 @@
-import '../styles/testimonio.css';
+import '../styles/testimonioStyles/testimonio.css';
 import testimoniosData from '../constants/texts/testimoniosData.json'
 
 // Firma que ha de cumplir el prop y especificación de los tipos

@@ -1,6 +1,6 @@
 import freecodecampLogo from "../imagenes/FreecodecampLogo.png";
-import "../styles/PagCalculadora.css";
-import { Calculadora } from "../components/Calculadora";
+import "../styles/calculadoraStyles/PagCalculadora.css";
+import { Calculadora } from "../components/calculadora/Calculadora";
 
 export function PagCalculadora() {
   return (

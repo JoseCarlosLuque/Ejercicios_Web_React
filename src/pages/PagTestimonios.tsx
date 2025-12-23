@@ -1,4 +1,4 @@
-import '../styles/PagTestimonios.css'
+import '../styles/testimonioStyles/PagTestimonios.css'
 import {Testimonio} from '../components/Testimonio'
 
 export function PagTestimonios() {
@@ -7,7 +7,7 @@ export function PagTestimonios() {
   return (
     <>
         <div className='App'>
-            <h1>Ejercico de maquetación</h1>
+            <h1>Ejercicio de maquetación</h1>
             <div className='Contenedor-principal'>
                 <Testimonio index={0}/>
                 <Testimonio index={1}/>
