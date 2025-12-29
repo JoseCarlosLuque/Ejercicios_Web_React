@@ -2,7 +2,7 @@ import '../../styles/calculadoraStyles/BotonCalculadora.css'
 
 interface Props {
     simbolo: string;
-    funcion: () => {}
+    funcion: () => void;
 }
 
 export function BotonCalculadora ({simbolo, funcion} : Props ) {
