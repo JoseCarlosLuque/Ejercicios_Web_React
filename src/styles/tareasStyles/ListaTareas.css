@@ -1,23 +1,4 @@
 
-/* Estilos para la página de la lista de tareas*/
-
-.pagina-principal-tareas {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
-
-h1 {
-    margin-bottom: 50px;
-    font-size: 25px;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-
 /* Contenedor que contiene las tareas y el input*/
 .contenedor-principal-tareas {
     width: 600px;
@@ -41,4 +22,3 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-

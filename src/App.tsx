@@ -9,6 +9,7 @@ import { Home } from './pages/Home';
 import { PagTestimonios } from './pages/PagTestimonios'
 import { PagContador } from './pages/PagContador';
 import { PagCalculadora } from './pages/PagCalculadora';
+import { PagListaTareas } from './pages/PagListaTareas';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
   function App() {
@@ -22,12 +23,14 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
         <Link to='/Testimonios' className='nav-link'> Testimonios </Link>
         <Link to='/Contador' className='nav-link'> Contador </Link>
         <Link to='/Calculadora' className='nav-link'> Calculadora</Link>
+        <Link to='/ListaTareas' className='nav-link'> Lista Tareas</Link>
       </nav>
       <Routes>
         <Route path='/' element={ <Home /> }/>
         <Route path='/Testimonios' element={<PagTestimonios/>}/>
         <Route path='/Contador' element={<PagContador/>}/>
         <Route path='/Calculadora' element={<PagCalculadora/>}/>
+        <Route path='/ListaTareas' element={<PagListaTareas/>}/>
       </Routes>
     </BrowserRouter>
       </div>

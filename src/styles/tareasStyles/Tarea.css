@@ -1,0 +1,43 @@
+
+.contenedor-principal-tarea {
+    background-color: #082f49ff; 
+    color: white;
+    min-height: 65px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    border: 3px solid white;
+    cursor: pointer;
+    width: 500px;
+    margin: 5px 0px 5px 0px;
+}
+
+/*
+    Es preferible en vez de usar un width: 100% hacer el flex-grow: 1; para que ocupe todo el ancho disponible
+    sin desbordarse en el caso de que haya un padding en el elemento padre.
+    Pero en este caso en concreto podemos darle un ancho fijo para ir más rápido.
+*/
+    
+.tarea-texto{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.tarea-icono {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.contenedor-principal-tarea.completada {
+    background-color: #5a01a7;
+    text-decoration: line-through;
+}
+
+/* IMPORTARNTE SI TIENE VARIAS CLASES NO DEBEN ESTAR SEPARADAS CON ESPACIO*/
